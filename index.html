@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body{
+            background: url(lg.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .login{
+         /* background-color: rgb(12, 136, 99); */
+         background-image: url(login.jpg);
+         background-size: 100% 100%;
+         /* background-color: rgba(165, 61, 42, 0.886); */
+            display: block;
+            padding: 20px;
+            border: 2px solid whitesmoke;
+            width: 600px;
+            border-radius: 20px 90px;
+            opacity: 20px;
+            margin: 12% auto;
+            /* box-shadow: 10px 6px 6px rgb(52, 50, 50); */
+                box-shadow: 15px 15px 13px rgb(56, 53, 53);
+        }
+        .name{
+            padding: none;
+           
+            font-weight: solid;
+            font-size: large;
+        }
+        .pas{
+            font-weight: solid;
+            font-size: large;
+        }
+        input{
+            
+            width: 70%;
+            padding: 15px 3px; 
+        }
+        h3{
+            color: aliceblue;
+        }
+        .btn{
+            border-radius: 12px;
+            font-weight: solid;
+            /* margin: 50px; */
+            margin: 20px;
+            font-size: medium;
+            
+           
+        }
+        .b1:hover{
+            border: 2px solid whitesmoke; 
+            background-color: rgb(127, 236, 251);
+            box-shadow: 5px 8px 23px rgb(127, 236, 251);
+           
+        }
+        .b2:hover{
+            border: 2px solid whitesmoke ;
+            box-shadow: 5px 8px 25px rgb(127, 236, 251);
+            background-color: rgb(127, 236, 251);
+        }
+        .b1{
+            cursor: pointer;
+            padding: 5px;
+            width: 100px;
+          
+            border-radius: 15px;
+        }
+        .b2{
+            padding: 5px;
+            width: 100px;
+            margin: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        .formm{
+            color: aliceblue;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        form{
+            font-weight: solid;
+            text-transform: capitalize;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="formm">
+          <h1>login form</h1>
+        </div>
+        <form action="" class="form control">
+           <h3>enter username</h3>
+            <input type="text" placeholder="Username" class="name" required>
+       
+       <h3>enter password</h3>
+            <input type="password" placeholder="Password" class="pas" required>
+       <div class="btn">
+            
+                <button type="reset" class="b1" >Reset</button>
+                
+                <button type="submit" class="b2">submit</button>
+            </div>
+            
+           
+        </form>
+            
+        </div>
+    </div>
+</body>
+</html>
